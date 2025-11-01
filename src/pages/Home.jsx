@@ -5,7 +5,7 @@ import AboutSection from "@/components/About/About";
 import MovingTextSection from "@/components/MovingText/MovingTextSection";
 import Testimonials from "@/components/Testimonial/Testimonials";
 import Counter from "@/components/Counter/Counter";
-import QuoteProcess from "@/components/ QuoteProcess/QuoteProcess";
+import QuoteProcess from "@/components/QuoteProcess/QuoteProcess"; // ✅ fixed
 import CompanyFeature from "@/components/CompanyFeature/CompanyFeature";
 import ProjectSlider from "@/components/ProjectSlider/ProjectSlider";
 import ClientArea from "@/components/ClientArea/ClientArea";
@@ -23,7 +23,7 @@ function Home() {
       <HomeServicesSection />
       <Testimonials />
       <Counter />
-      <QuoteProcess />
+      <QuoteProcess /> {/* ✅ keeps working once import is fixed */}
       <TeamSliderSection />
       <CompanyFeature />
       <ProjectSlider />
